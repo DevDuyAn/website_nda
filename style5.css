@@ -1,0 +1,80 @@
+/* morong.html */
+
+body{
+    background-image: url(img1/picture3.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+}
+.class2 a{
+    border: 3px double red;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(6, 129, 113);
+}
+a:hover{
+    color: rgb(8, 153, 117);
+    font-size: 20px;
+}
+.fa-house{
+    color: black;
+    margin-right: 5px;
+}
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border:3px solid red;
+    overflow: hidden;
+    overflow: auto;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    background-image: url(img1/picture2.jpg);
+}
+.box2:hover{
+    font-size: 20px;
+}
+.box2 img{
+    width: 50px;
+    clip-path: inset(5px round 10px);
+}
+#box2_1{
+    box-shadow: -16px -16px rgb(43, 41, 41);
+    height: 50vh;
+}
+#box2_2{
+    box-shadow: 0 -16px rgb(43, 41, 41);
+}
+#box2_3{
+    box-shadow: 16px -16px rgb(43, 41, 41);
+    height: 50vh;
+}
+h2{
+    color: rgb(170, 255, 0);
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 10px -10px 5px rgb(255, 255, 255);
+}
+h3{
+    color: brown;
+    line-height: 5px;
+    text-transform: capitalize;
+}

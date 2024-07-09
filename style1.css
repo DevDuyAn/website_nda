@@ -1,0 +1,78 @@
+/* aboutme.html */
+
+body{
+    background-image: url(img1/picture2.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    margin-left: 10px;
+}
+.class1 a{
+    border: 3px double red;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(6, 129, 113);
+}
+a:hover{
+    color: rgb(8, 153, 117);
+    font-size: 20px;
+}
+.fa-house{
+    color: black;
+    margin-right: 5px;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+}
+h2{
+    text-transform: capitalize;
+}
+h2 a{
+    text-decoration: none;
+}
+h2 a:hover{
+    color: red;
+    font-size: 20px;
+}
+.fa-link{
+    color: rgb(24, 184, 170);
+    margin-right: 6px;
+}
+strong{
+    color: brown;
+}
+ul{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    color: red;
+    font-size: 20px;
+}
+.fa-html5, .fa-css3-alt, .fa-js, .fa-graduation-cap{
+    margin-right: 5px;
+}
+.fa-html5{
+    color: rgb(226, 46, 23);
+}
+.fa-css3-alt{
+    color: blue;
+    
+}
+.fa-js{
+    color: goldenrod;
+    
+}
+.fa-graduation-cap{
+    color: rgb(6, 97, 139);
+}

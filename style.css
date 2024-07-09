@@ -1,0 +1,57 @@
+/* index.html */
+
+body{
+    background-image: url(img1/picture1.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+}
+h1{
+    color: aqua;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+h3{
+    color:yellow;
+    text-transform: capitalize;
+}
+.box a{
+    line-height: 30px;
+    border: 3px solid aqua;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+    color: azure;
+}
+.box a:hover{
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+}
+.fa-facebook {
+    color: blue;
+    margin-right: 3px;
+}
+.fa-envelope{
+    color: red;
+    margin-right: 3px;
+}
+.fa-phone{
+    color: green;
+    margin-right: 3px;
+}
+.avatar{
+    border-radius: 50%;
+    width: 120px;
+    margin-left: 50px;
+    border: 3px dashed red;
+}
+.avatar:first-child{
+    margin-left: 0px;
+}

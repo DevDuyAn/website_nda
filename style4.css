@@ -1,0 +1,62 @@
+/* htap_ct.html */
+
+body{
+    background-image: url(img1/picture2.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+}
+.class2 a{
+    border: 3px double red;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(6, 129, 113);
+}
+a:hover{
+    color: rgb(8, 153, 117);
+    font-size: 20px;
+}
+.fa-house{
+    color: black;
+    margin-right: 5px;
+}
+h1{
+    color: red;
+    text-transform:uppercase;
+}
+h2{
+    text-transform: capitalize;
+}
+#nda1{
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin:auto;
+    font-size: 20px;
+    text-align:center;
+    border-color: aqua;
+}
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #831212;
+}
+thead {
+    background-color: #3caadd;
+}
+tr{
+    color: rgb(9, 77, 54);
+}
+th{
+    color: rgb(25, 4, 53);
+}
